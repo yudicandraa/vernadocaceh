@@ -1,0 +1,291 @@
+@font-face {
+    font-family: athelasregular;
+    src: url(assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: popblack;
+    src: url(assets/fonts/Poppins/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: athelasregular;
+  src: url(assets/fonts/Athelas/Athelas-Regular.ttf);
+}
+@font-face {
+  font-family: athelasbold;
+  src: url(assets/fonts/Athelas/Athelas-Bold.ttf);
+}
+
+/* Define the animation */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Apply the animation to an element */
+.animated-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+.nav-item{
+    font-family: athelasregular;
+}
+.jumbotron{
+    background-image: url(assets/images/Frame3.png);
+    background-size:contain;
+    height: 550px;
+    text-align: center;
+    margin-top: 0px;
+
+}
+.jumbotron .display-4{
+    color: #706F6F;
+    margin-top: 200px;
+    font-family: popblack;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: 0px 5px 10px black;
+}
+.form-control{
+    border-radius: 20px;
+}
+.formmessage-control{
+  border-radius: 20px;
+
+}
+.topik{
+    text-align: center;
+    margin-top: 150px;
+    
+    font-family: popblack;
+}
+
+.btn-primary{
+    border-radius: 10px;
+    background-color: #8F614B;
+    font-family: athelasregular;
+    border-color: #8F614B;
+}
+
+.btn-submit{
+  padding-left: 100px;
+  border-radius: 10px;
+  background-color: #8F614B;
+  font-family: athelasregular;
+  border-color: #8F614B;
+}
+.btn-primary:hover, .btn-primary:active{
+    background-color: #6E4B3A;
+    border-color: #6E4B3A;
+}
+.mid-text{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+a:link, a:visited{
+    color: black;
+}
+a:hover, a:active{
+    color: gray;
+}
+.col-md-4{
+    text-decoration: none;
+}
+.partner{
+    float: left;
+    width:  120px;
+    height: 120px;
+    object-fit:contain;
+    padding: 10px;
+}
+.box-footer{
+    font-family: athelasregular;
+    font-size: large;
+}
+.text-profile{
+    padding: 100px;
+    font-family: popblack;
+    font-size: 30px;
+}
+.text-kontak{
+  padding: 100px 0 50px 100px;
+  font-family: popblack;
+  font-size: 30px;
+}
+.logo-kontak{
+  padding: 10px 0 30px 100px;
+}
+
+.alamat{
+  font-family: athelasbold;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: -10px;
+}
+
+.deskripsi{
+  font-family: athelasregular;
+  font-size: 24px;
+  color: #565656;
+  margin-top: -10px;
+}
+
+.title-beranda{
+  margin-top: 10px;
+  font-size: 22px;
+  font-family: athelasregular;
+}
+.alamat2{
+  font-family: athelasregular;
+  font-size: 18px;
+  padding-left: 20px;
+}
+.form-kontak{
+  font-family: athelasregular;
+  font-size: 18px;
+  padding-left: 100px;
+}
+.form-kontak2{
+  font-family: athelasregular;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.form-pesan{
+  font-family: athelasregular;
+  font-size: 18px;
+  padding-left: 100px;
+  padding-top: 15px;
+
+}
+.form-floating{
+  padding-top: 20px;
+  padding-left: 85px;
+  font-family: athelasregular;
+  font-size: 18px;
+}
+.btn-pesan{
+  padding-top: 20px;
+  padding-left: 85px;
+  font-family: athelasregular;
+  font-size: 16px;
+}
+.text-nama{
+    margin-top: -100px;
+    padding-left: 100px;
+    padding-right: 50px;
+    font-size: 28px;
+    font-family: athelasbold;
+    color:#8F614B;
+}
+.h3{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 100px;
+  font-weight: bold;
+}
+.h3-2{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 100px;
+  font-weight: bold;
+  color:#8F614B;
+  
+}
+.profile-gambar{
+    padding-left: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.text-isi{
+    padding-left: 100px;
+    text-align: justify;
+    padding-right: 100px;
+    font-family: athelasregular;
+}
+.profile-year{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+.text-partners{
+  padding-top: 100px;
+  font-family: popblack;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.navbar-text{
+  font-family: athelasregular;
+  font-size: 18px;
+  text-align: center;
+}
+
+.navbar-search{
+  font-family: athelasregular;
+  font-size: 14px;
+  text-align: start;
+}
+.partners-logo{
+  width: 12%;
+  padding: 10px;
+}
+
+
+/*slide in animation*/
+@media (min-width: 768px) {
+    .animate {
+      animation-duration: 0.3s;
+      -webkit-animation-duration: 0.3s;
+      animation-fill-mode: both;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0rem);
+      opacity: 1;
+    }
+  
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+  
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+  
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}
